@@ -1,12 +1,2 @@
-# Katext Editor
-I made this because I needed to print maths stuff off and put it on my wall.
-
-## Instructions:
-- Go to [this page](https://ollybritton.github.io/Katext-Editor/).
-- Do mathsy stuff.
-
-## Things I Probably Used:
-- [Katex](https://github.com/Khan/KaTeX): Fast math typesetting for the web.
-- [Jquery](https://github.com/jquery/jquery): A javascript library for noobs.
-
-*Katext... get it?*
+# Countdown Till Summer Holidays
+Quick thing I made to countdown to the exact moment the summer holidays start. Wanna go there? It won't serve much functionality to you but: [https://ollybritton.github.io/Summer-Holidays/](Click Here)

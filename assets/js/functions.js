@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var dateThen = new Date('07/21/2017 12:30 AM');
 function update() {
   var dateNow = Date.now()
@@ -15,18 +14,3 @@ function update() {
 }
 
 setInterval(function(){ update() }, 1000);
-=======
-var render = function(){
-  var input = $('.input')
-  var output = $('.output')
-
-  try {
-    var rendered = katex.renderToString($('input').val(), { displayMode: true,
-                                                            throwOnError: false,
-                                                            errorColor: "#ff329f" })
-  }
-  catch(err) {
-  }
-  $('.output').html(rendered)
-}
->>>>>>> origin/master
