@@ -3,7 +3,7 @@ function update() {
   var dateNow = Date.now()
   var dif = dateThen - dateNow
   var seconds = dif/1000;
-  $('.text').html(Math.floor(seconds))
+  $('.text').html(Math.floor(seconds) + " seconds.")
   var days = Math.floor(((seconds/60)/60)/24)
   var hours = Math.floor(((seconds/60)/60))
   var minutes = Math.floor(seconds/60)
