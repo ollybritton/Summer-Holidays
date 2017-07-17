@@ -1,4 +1,4 @@
-var dateThen = new Date('07/21/2017 12:30 AM');
+var dateThen = new Date('07/21/2017 3:30 PM');
 function update() {
   var dateNow = Date.now()
   var dif = dateThen - dateNow
