@@ -1,9 +1,17 @@
+let zero = function(x) {
+  if(x < 0) {
+    return 0;
+  } else {
+    return x;
+  }
+}
+
 var dateThen = new Date('07/21/2017 3:30 PM');
 function update() {
   
   var dateNow = Date.now()
   var dif = dateThen - dateNow
-  var seconds = dif/1000;
+  var seconds = zero(dif/1000);
   var days = Math.floor(((seconds/60)/60)/24)
   var hours = Math.floor(((seconds/60)/60))
   var minutes = Math.floor(seconds/60)
