@@ -6,7 +6,7 @@ let zero = function(x) {
   }
 }
 
-var dateThen = new Date('07/20/2017 3:30 PM');
+var dateThen = new Date('2017-07-20T12:30:00+00:00');
 function update() {
   
   var dateNow = Date.now()
